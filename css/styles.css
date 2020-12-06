@@ -183,30 +183,30 @@ h3{
 .carousel-item img{
   height:100%;
   width:100%;
-  margin-left: 13px;/*shreya*/
-  border-radius: 5%;/*shreya*/
+  margin-left: 13px;
+  border-radius: 5%;
 }
 .writing-container{
   left:12%;
 }
 /* Contact Section */
 .contact-section{
-  background-image:url('../footerBG.jpg');/*shreya*/
+  background-image:url('../footerBG.jpg');
   background-size: cover;
   height:15em;
   width:100%;
-  padding-top: 50px; /*shreya*/
-  box-shadow: inset 1px 20px 16px 4px #000607;/*shreya*/
+  padding-top: 50px;
+  box-shadow: inset 1px 20px 16px 4px #000607;
 }
-#contact h2{   /*shreya*/
-  font-size: 3rem; /*shreya*/
-  color: whitesmoke; /*shreya*/
-  font-family: 'Libre Baskerville', serif;/*shreya*/
+#contact h2{
+  font-size: 3rem;
+  color: whitesmoke;
+  font-family: 'Libre Baskerville', serif;
   margin-top: 20px;
 }
-.btn-outline-dark{/*shreya*/
-  color: whitesmoke;/*shreya*/
-  border-color: whitesmoke;/*shreya*/
+.btn-outline-dark{
+  color: whitesmoke;
+  border-color: whitesmoke;
 
 }
 .contact-section .btn{
@@ -229,6 +229,9 @@ small{
     margin:0 auto;
   }
   /* About section */
+  #about{
+    margin-bottom: 3%;
+  }
   .container{
     width: auto;
     height:inherit;
@@ -240,6 +243,9 @@ small{
     display: none;
   }
   /* Work Section */
+  #work{
+    margin-bottom:4%;
+  }
   .work-container{
     height:inherit;
     position: static;
@@ -255,6 +261,9 @@ small{
     margin-top: 30px;
   }
   /* Skill Section */
+  #skills{
+    margin-bottom: 4%;
+  }
   .skill-box-content{
       position: static;
       height:inherit;
@@ -268,10 +277,11 @@ small{
   /* Writing Section */
   #writings{
     height:18em;
+    margin-bottom: 3%;
   }
   .writing-max-box{
     width: inherit;
-    height: 16em;
+    height: inherit;
 
   }
   .carousel{
@@ -284,6 +294,10 @@ small{
   .writing-container{
     position: static;
     height:inherit;
+  }
+  .carousel-item img{
+    height:18em;
+    width:40em;
   }
 
 }
