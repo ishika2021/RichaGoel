@@ -1,0 +1,289 @@
+body{
+  margin: 0;
+  text-align:center;
+  background-color: #000607;
+}
+h3{
+  font-size: 1.5rem;
+}
+.side-heading-box{
+  left:1%;
+  top:0;
+  height:18em;
+  text-align: center;
+  border-right: 2px solid #6c757d;
+}
+.side-heading-box h1{
+  color: #EDD000;
+  font-weight: bolder;
+  font-size: 5rem;
+  font-family: 'Exo', sans-serif;
+}
+.side-heading-box h3{
+  color: #A9AAAC;
+  font-weight:bold;
+  font-size: 1.4rem;
+  margin-right: -60px;
+  margin-top: -16px;
+  font-family: 'Exo', sans-serif;
+
+}
+/* Top Heading Section */
+#header{
+  background-image: url('../headerBG.jpg');
+  background-repeat: no-repeat;
+  background-size:100% auto;
+  height:35em;
+  box-shadow: inset 0px -20px 20px 5px #000607;
+}
+.name{
+  display:inline-block;
+  margin-top:10%;
+}
+.name h1{
+  font-size:10rem;
+  font-weight: bolder;
+  color:#fff;
+  font-family: 'Libre Baskerville', serif;
+}
+/* About section */
+.container{
+  border:0px solid black;
+  width:60em;
+  height:30em;
+  margin-top:30px;
+  background-color: #01080A;
+  border-radius: 20px;
+  position:relative;
+  box-shadow: 5px 9px 20px 0px #34393B;
+}
+.about-container{
+  right:10%;
+}
+.about-box-content{
+  display: inline-block;
+  position:absolute;
+}
+
+.photo-box{
+  left:12%;
+  top:3%;
+  width:18em;
+  height:28em;
+}
+.profile-pic{
+  height:100%;
+  width:100%;
+  margin-left: 10px;
+  border-radius: 40%;
+}
+.intro-box{
+  top:3%;
+  right:5%;
+  width:30em;
+  height:28em;
+  padding:10px;
+}
+.intro-box p{
+  font-size: 18px;
+  text-align: center;
+  color: #A3C3C5;
+}
+/* Work section */
+.work-box-content{
+  display: inline-block;
+  position:absolute;
+}
+.work-container{
+  left:10%;
+}
+.exp-max-box{
+  left:12%;
+  top:15%;
+  height:20em;
+}
+.exp-mini-box{
+  border-top:2px solid #6c757d;
+  border-left:2px solid #6c757d;
+  border-radius:60px;
+  display: inline-block;
+  vertical-align: top;
+  width:10em;
+  height:100%;
+  text-align:center;
+  padding-top:20px;
+}
+.date{
+  height:3em;
+  color: #A3C3C5;
+  font-family: 'Caveat', cursive;
+  font-size: 2em;
+}
+.role{
+  height:7em;
+  color: #A3C3C5;/*shreya*/
+}
+.logo{
+    width:60%;
+    position:relative;
+    top:20px;
+    display: inline-block;
+    vertical-align: bottom;
+    border-radius: 100%;
+    color: #EDD000;
+}
+
+/* Skills section */
+
+.skill-box-content{
+  display: inline-block;
+  position: absolute;
+}
+.skill-max-box{
+  left:12%;
+  top:15%;
+  height:20em;
+
+}
+.skill-mini-box{
+  border-top:2px solid #6c757d;
+  border-left:2px solid #6c757d;
+  border-radius:60px;
+  display: inline-block;
+  vertical-align: top;
+  width:10em;
+  height:100%;
+  text-align:center;
+  padding-top:20px;
+}
+.skills-container{
+  right:10%
+}
+/* Writings section */
+#writings{
+      height: 33em;
+}
+.writing-box-content{
+  display: inline-block;
+  position: absolute;
+}
+.writing-max-box{
+  left:12%;
+  top:3%;
+  height:28em;
+  width:50em;
+  padding-right:15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.writing-carousel{
+  height: 100%;
+  width:100%;
+}
+.carousel-item img{
+  height:100%;
+  width:100%;
+  margin-left: 13px;/*shreya*/
+  border-radius: 5%;/*shreya*/
+}
+.writing-container{
+  left:12%;
+}
+/* Contact Section */
+.contact-section{
+  background-image:url('../footerBG.jpg');/*shreya*/
+  background-size: cover;
+  height:15em;
+  width:100%;
+  padding-top: 50px; /*shreya*/
+  box-shadow: inset 1px 20px 16px 4px #000607;/*shreya*/
+}
+#contact h2{   /*shreya*/
+  font-size: 3rem; /*shreya*/
+  color: whitesmoke; /*shreya*/
+  font-family: 'Libre Baskerville', serif;/*shreya*/
+  margin-top: 20px;
+}
+.btn-outline-dark{/*shreya*/
+  color: whitesmoke;/*shreya*/
+  border-color: whitesmoke;/*shreya*/
+
+}
+.contact-section .btn{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+small{
+  color: whitesmoke;
+}
+/* Responsive Section */
+@media(max-width:1000px){
+  /* Top Header section */
+  #header{
+    height:20em;
+  }
+  .name h1{
+    font-size: 5rem;
+  }
+  .name{
+    margin:0 auto;
+  }
+  /* About section */
+  .container{
+    width: auto;
+    height:inherit;
+  }
+  .about-container{
+    position: static;
+  }
+  .side-heading-box{
+    display: none;
+  }
+  /* Work Section */
+  .work-container{
+    height:inherit;
+    position: static;
+  }
+  .about-box-content{
+    position: static;
+  }
+  .work-box-content{
+      position: static;
+      height:inherit;
+  }
+  .exp-mini-box{
+    margin-top: 30px;
+  }
+  /* Skill Section */
+  .skill-box-content{
+      position: static;
+      height:inherit;
+  }
+  .skill-mini-box{
+    margin-top: 30px;
+  }
+  .skills-container{
+    position: static;
+  }
+  /* Writing Section */
+  #writings{
+    height:18em;
+  }
+  .writing-max-box{
+    width: inherit;
+    height: 16em;
+
+  }
+  .carousel{
+    height:100%;
+    width:100%;
+  }
+  .writing-box-content{
+    position: static;
+  }
+  .writing-container{
+    position: static;
+    height:inherit;
+  }
+
+}
